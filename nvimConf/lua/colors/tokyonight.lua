@@ -1,4 +1,4 @@
-require("tokyonight").setup({
+return require("tokyonight").setup({
   -- your configuration comes here
   -- or leave it empty to use the default settings
   style = "night", -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
@@ -32,7 +32,4 @@ require("tokyonight").setup({
   ---@param colors ColorScheme
   on_highlights = function(highlights, colors) end,
 })
-vim.cmd[[colorscheme tokyonight-night]]
---[[
---make this a function that takes some args and executes the wanted theme
---]]
+

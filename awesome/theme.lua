@@ -121,6 +121,11 @@ theme.userr_maximized_button_normal_active = default_themes_path.."default/title
 theme.titlebar_maximized_button_focus_active  = default_themes_path.."default/titlebar/maximized_focus_active.png"
 theme.userr_maximized_button_focus_active  = default_themes_path.."default/titlebar/maximized_focconfget_configuration_dirpng"
 
+--[[
+--  backgrounds/MicrosoftWallpaper(feat abdelhamid).png"
+--  backgrounds/Artistic astronaut.jpg
+--]]
+
 theme.wallpaper = user_themes_path.."backgrounds/Artistic astronaut.jpg"
 theme.userer = default_themes_path.."default/bconfget_configuration_dirpng"
 

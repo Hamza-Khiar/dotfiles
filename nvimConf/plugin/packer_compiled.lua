@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  commentary = {
+    loaded = true,
+    path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -109,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/nightfly",
     url = "https://github.com/bluz71/vim-nightfly-colors"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -123,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/hamza_khiar/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["onedark.nvim"] = {
     loaded = true,

@@ -1,0 +1,5 @@
+require ('config.set')
+require ('config.mappedKeys')	
+require ('config.lazy-nvim')
+require ('config.Telescope')
+require ('config.lsp')

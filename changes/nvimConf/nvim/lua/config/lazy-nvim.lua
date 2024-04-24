@@ -26,6 +26,20 @@ return require("lazy").setup({
     		{'folke/neodev.nvim',opts={}},
 	    },
     },
+    {
+        "hrsh7th/nvim-cmp",
+        dependencies = {
+          'L3MON4D3/LuaSnip',
+          'hrsh7th/cmp-nvim-lsp',
+          'hrsh7th/cmp-path',
+          'hrsh7th/cmp-buffer',
+          'saadparwaiz1/cmp_luasnip',
+        },
+    },
+    --colorschemes
+    "folke/tokyonight.nvim",
+    "catppuccin/nvim",
+    --"uloco/bluloco.nvim",
     { 'numToStr/Comment.nvim', opts = {} },
 
 })

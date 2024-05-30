@@ -1,4 +1,4 @@
-vim.opt.nu = true
+vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -10,7 +10,6 @@ vim.opt.linebreak = true
 vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.relativenumber=true
---vim.opt.nocompatible = true
---vim.opt.cc=80
+vim.opt.nu = true
 vim.opt.syntax=ON
 vim.opt.clipboard=unnamedplus

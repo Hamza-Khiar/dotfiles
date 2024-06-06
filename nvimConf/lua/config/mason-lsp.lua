@@ -4,7 +4,7 @@ require("mason").setup()
 
 local capabilities=require('cmp_nvim_lsp').default_capabilities()
 local ts_filetypes= {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
-local tailwind_filetypes = {'aspnetcorerazor', 'astro', 'astro-markdown', 'blade', 'clojure', 'django-html', 'htmldjango', 'edge', 'eelixir', 'elixir', 'ejs', 'erb', 'eruby', 'gohtml', 'gohtmltmpl', 'haml', 'handlebars', 'hbs', 'html', 'html-eex', 'heex', 'jade', 'leaf', 'liquid', 'markdown', 'mdx', 'mustache', 'njk', 'nunjucks', 'php', 'razor', 'slim', 'twig', 'stylus', 'sugarss', 'javascript', 'javascriptreact', 'reason', 'rescript', 'typescript', 'typescriptreact', 'vue', 'svelte', 'templ'}
+
 
 
 require('mason-lspconfig').setup()
@@ -27,13 +27,7 @@ require('mason-lspconfig').setup_handlers{
             filetypes=ts_filetypes
         })
     end,
-    tailwindcss = function (server_name)
-        require('lspconfig')[server_name].setup({
-                capabilities=capabilities,
-                filetypes=tailwind_filetypes
-        })
-    end,
-    tsserver = function()
+   tsserver = function()
       require('lspconfig').tsserver.setup({
         init_options = {
           plugins = {

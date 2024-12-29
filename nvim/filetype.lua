@@ -3,4 +3,3 @@ vim.filetype.add {
     ['.*%.blade%.php'] = 'php',
   },
 }
-print("hey filetype")

@@ -1,0 +1,17 @@
+[font.bold]
+family = "Berkeley Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Berkeley Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Berkeley Mono"
+style = "Italic"
+
+[font.normal]
+family = "Berkeley Mono"
+style = "Regular"
+
+

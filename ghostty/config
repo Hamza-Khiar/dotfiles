@@ -1,6 +1,29 @@
-theme = iTerm2 Default
 background-opacity = 0.8
 macos-titlebar-style = hidden
-window-decoration=false
-theme=MaterialOcean
 font-size=12
+theme="myTheme"
+
+
+## these two do the same thing
+
+gtk-titlebar=false
+#window-decoration=false
+
+
+## Commented
+
+
+#theme="Builtin Pastel Dark"
+#theme="detuned"
+#theme=tokyonight_night
+#theme="duckbones"
+#theme="Blue Matrix"
+#theme="Grape" 
+#theme="Laser" 
+#theme="Nocturnal Winter"
+#theme="Overnight Slumber"
+#theme="Symfonic"
+#theme="synthwave"
+#theme="tokyonight"
+#theme="UltraDark"
+#theme="Wombat"

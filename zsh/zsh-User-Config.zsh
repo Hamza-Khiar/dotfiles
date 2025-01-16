@@ -47,3 +47,6 @@ fi
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 #bindkey ''
+
+# idk what this is but it enables forward search on bck-i-search 
+stty -ixon
